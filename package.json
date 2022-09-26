@@ -1,0 +1,32 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "a proxy server project to filter user traffic and execute file protection",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onifademola/proxy-server.git"
+  },
+  "keywords": [
+    "proxy",
+    "server",
+    "vpn"
+  ],
+  "author": "Damola Ojoniyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onifademola/proxy-server/issues"
+  },
+  "homepage": "https://github.com/onifademola/proxy-server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.1",
+    "nodemon": "^2.0.19"
+  }
+}
